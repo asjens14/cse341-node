@@ -34,7 +34,7 @@ app.use(errorController.get404);
 
 
 const corsOptions = {
-    origin: "https://<your_app_name>.herokuapp.com/",
+    origin: "https://stormy-ridge-24312.herokuapp.com/",
     optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
